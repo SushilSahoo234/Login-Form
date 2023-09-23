@@ -1,0 +1,73 @@
+body{
+    font-size: 16px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.divMain{
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+
+}
+label{
+    margin-bottom:5px ;
+    display: block;
+    font-size: 20px;
+}
+.row{
+    width: 250px;
+    margin-bottom:10px ;
+}
+input,select{
+    width: 100%;
+    padding: 10px;
+}
+select{
+    width: 110%;
+}
+.radio_option{
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px;
+    gap: 8px;
+    width: 103%;
+    padding: 8px 10px;
+}
+.radio_option label,.radio_option input{
+    display: inline-block;
+    width: auto;
+
+}
+.error{
+    color: red;
+    font-size: 90%;
+}
+button[type="submit"]{
+    padding: 0.5rem 6.8rem;
+    border:1px solid #016bc1;
+    font-size: 110%;
+    color: white;
+    font-weight: bold;
+    background-color: #006dcc;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: white;
+    color: #006dcc;
+    border:1px solid #016bc1;
+    transition: 0.8s;
+}
